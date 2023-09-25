@@ -132,6 +132,7 @@ class HomeScreen extends StatelessWidget {
                     children: [
                       featuredProduct.text.white.fontFamily(bold).size(18).make(),
                       10.heightBox,
+                    
                     SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       child: Row(
