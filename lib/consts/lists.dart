@@ -17,3 +17,6 @@ const categoriesList = [
 const categoriesImages = [imgFc1,imgFc2,imgFc3,imgFc4,imgFc5,imgFc6,imgFc7,imgFc8,imgFc9];
 
 const itemDetailButtonList = [video,reviews,privacyPolicy,returnpolicy,supportPolicy];
+
+const profileButtonsList = [orders,wishlist,messagse];
+const profileButtonsIcon = [icOrder, icOrders, icMessages];
