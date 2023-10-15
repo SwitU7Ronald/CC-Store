@@ -6,7 +6,8 @@ import 'package:flutter/material.dart';
 
 class ItemDetails extends StatelessWidget {
   final String? title;
-  const ItemDetails({super.key, required this.title});
+  final dynamic data;
+  const ItemDetails({super.key, required this.title, this.data});
 
   @override
   Widget build(BuildContext context) {
